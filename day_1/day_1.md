@@ -1,4 +1,7 @@
---- Intro To Advent of Code 2015 ---
+Day 1 : Not Quite Lisp 
+----------------------
+
+# Intro To Advent of Code 2015
 
 Santa was hoping for a white Christmas, but his weather machine's "snow"
 function is powered by stars, and he's fresh out! To save Christmas, he
@@ -8,7 +11,7 @@ Collect stars by helping Santa solve puzzles. Two puzzles will be made
 available on each day in the Advent calendar; the second puzzle is
 unlocked when you complete the first. Each puzzle grants one star. Good luck!
 
---- Day 1 - Part 1: Not Quite Lisp ---
+## Part 1
 
 Here's an easy puzzle to warm you up.
 Santa is trying to deliver presents in a large apartment building, but he
@@ -32,4 +35,22 @@ For example:
 
 To what floor do the instructions take Santa?
 
---- Day 1 - Part 2: TODO ---
+Your puzzle answer was `138`
+
+## Part Two
+
+Now, given the same instructions, find the position of the first character that
+causes him to enter the basement (floor -1). 
+
+The first character in the instructions has position 1, the second character has
+position 2, and so on.
+
+For example:
+
+ * `)` causes him to enter the basement at character position 1.
+ * `()())` causes him to enter the basement at character position 5.
+
+What is the position of the character that causes Santa to first enter the
+basement?
+
+Your puzzle answer was `1771`
