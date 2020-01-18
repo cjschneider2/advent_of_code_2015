@@ -23,4 +23,4 @@ For example:
    `pqrstuv1048970` looks like `000006136ef....`
 
 Your puzzle input is `iwrupvqb`
-Your puzzle answer is 
+Your puzzle answer is `` 
