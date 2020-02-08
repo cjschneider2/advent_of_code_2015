@@ -1,4 +1,4 @@
-defmodule AOC2015.Day1 do
+defmodule AOC2015.Day3 do
 
   defp p1(steps) do p1(steps, %{}, {0, 0}, 0) end
   defp p1([], _houses, _pos, count) do count end
@@ -70,5 +70,5 @@ defmodule AOC2015.Day1 do
 
 end
 
-AOC2015.Day1.run_part1()
-AOC2015.Day1.run_part2()
+AOC2015.Day3.run_part1()
+AOC2015.Day3.run_part2()
